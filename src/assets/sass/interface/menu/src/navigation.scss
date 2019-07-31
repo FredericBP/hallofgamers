@@ -1,0 +1,27 @@
+#menu-navigation {
+  p.userAreaSection {
+    border-left: 3px solid $color3;
+    color: $color3;
+    font-family: $font1;
+    font-size: 1.2rem;
+    margin: 2rem 1rem 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  & ul > li {
+    color: $color2;
+    font-family: $font2;
+    font-size: 1.1rem;
+    margin: 0.8rem 0.8rem 0.8rem 1.2rem;
+    padding: 0 0.3rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

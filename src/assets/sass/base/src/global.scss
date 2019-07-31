@@ -1,0 +1,87 @@
+html {
+  font-size: 1.2rem;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 570px) {
+  html {
+    font-size: 1.5rem;
+  }
+
+  footer.onboarding-page {
+    font-size: 1rem;
+
+    nav.footer-menu ul {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  
+      li:nth-child(even) {
+        display: none;
+      }
+    }
+  }
+}
+
+body {
+  background: #f3f3f9 url('../files/background-pattern.png') repeat fixed;
+  font-family: $font3;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.App {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  color: $color3;
+  font-family: $font1;
+}
+
+h2 {
+  font-family: $font2;
+}
+
+h3 {
+  font-family: $font2;
+  margin-top: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+p {
+  text-align: justify;
+}
+
+.maintenance {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+
+  i.fas {
+    color: $color3;
+    font-size: 7rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,27 @@
+#floating-action-button {
+  background-color: $color3;
+  border: 2px solid $color1;
+  border-bottom: 6px solid $color1;
+  bottom: 3px;
+  border-radius: 50%;
+  color: $color2;
+  height: 60px;
+  margin: 2rem;
+  position: absolute;
+  right: 3px;
+  width: 60px;
+
+  &:hover {
+    background-color: $color5;
+    cursor: pointer;
+  }
+
+  &:active {
+    border-bottom: 3px solid $color1;
+    bottom: 0px;
+  }
+
+  & .fa-plus {
+    font-size: 2rem;
+  }
+}

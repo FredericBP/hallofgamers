@@ -1,0 +1,12 @@
+#side-menu {
+  background-color: $color4;
+  color: $color2;
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+  left: 0;
+  padding: 0.5rem;
+  position: absolute;
+  top: calc(60px + 2rem);
+
+  @include shadow;
+}

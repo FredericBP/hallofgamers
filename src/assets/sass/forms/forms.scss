@@ -1,0 +1,60 @@
+form {
+  box-sizing: border-box;
+
+  label,
+  input,
+  select,
+  textarea {
+    display: block;
+    margin: 1rem auto;
+    width: 80%;
+  }
+
+  input,
+  select,
+  textarea {
+    border: 2px solid $color4;
+    border-radius: 15px;
+    padding: 5px 15px;
+  }
+
+  textarea,
+  .tox-tinymce {
+    border-radius: 15px 15px 5px 15px;
+  }
+
+  label {
+    margin-top: 2em;
+  }
+  
+  input,
+  select {
+    height: 18px;
+  }
+
+  textarea {
+    height: 98px;
+  }
+
+  .tox-tinymce {
+    border: 2px solid $color4;
+    margin: 0 auto;
+    width: calc(80% + 30px);
+  }
+
+  .mce-notification.mce-in {
+    display: none;
+  }
+
+  .form-buttons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .formError {
+    color: #f00;
+    margin: 0;
+    text-align: center;
+  }
+}

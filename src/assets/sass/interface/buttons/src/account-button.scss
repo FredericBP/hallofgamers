@@ -1,0 +1,31 @@
+#account-button {
+  position: relative;
+
+  i.fa-user-circle {
+    color: $color2;
+    font-size: 2rem;
+  }
+  
+  #account-button-menu {
+    // top: 2.8rem;
+    // position: absolute;
+    // right: -0.8rem;
+
+    // background-color: $color4;
+    // border: 2px solid $color1;
+    // border-radius: 20px;
+    color: $color2;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    padding: 0 0.8rem;
+
+    nav ul li {
+      margin: 1rem 0;
+      
+      &:hover {
+        color: $color3;
+        cursor: pointer;
+      }
+    }
+  }
+}

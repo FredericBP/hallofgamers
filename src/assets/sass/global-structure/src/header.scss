@@ -1,0 +1,21 @@
+header {
+  align-items: center;
+  background-color: $color4;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+  padding: 0 1rem;
+  position: relative;
+  width: 100%;
+
+  @include shadow;
+
+  img[alt="Logo Hall of Gamers"] {
+    width: 150px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

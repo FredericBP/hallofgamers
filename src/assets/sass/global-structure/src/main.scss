@@ -1,0 +1,40 @@
+main.container {
+  box-sizing: border-box;
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  width: 100%;
+
+  &::-webkit-scrollbar {
+    background-color: $color2;
+    width: 10px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    background-color: $color4;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
+  
+  &::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+  
+  &::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+
+  section {
+    margin: 1rem auto;
+    max-width: 960px;
+    @include block;
+
+    h1 {
+      @include sectionMainTitleForBlock;
+    }
+  }
+}

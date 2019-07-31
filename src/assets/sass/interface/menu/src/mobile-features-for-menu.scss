@@ -1,0 +1,18 @@
+#mobile-features-for-menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+
+  img[alt="Logo Hall of Gamers"] {
+    width: 200px;
+  }
+
+  i.fa-times {
+    font-size: 2rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

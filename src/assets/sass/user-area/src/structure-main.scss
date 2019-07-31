@@ -1,0 +1,85 @@
+main.container.user-area {
+  article.post {
+    font-size: 1rem;
+  
+    @include post;
+    
+    header {
+      background-color: transparent;
+      border-bottom: 2px solid $color4;
+      box-shadow: none;
+      padding: 0.4rem;
+  
+      h3 {
+        margin: 0;
+      }
+    }
+    
+    main {
+      border-bottom: 2px solid $color4;
+      padding: 0.4rem;
+    }
+    
+    footer {
+      align-items: center;
+      color: $color1;
+      display: flex;
+      font-size: 0.8rem;
+      justify-content: space-between;
+      padding: 0.4rem;
+  
+      p {
+        margin: 0;
+      }
+  
+      i.fas {
+        color: #e01c1c;
+        font-size: 2rem;
+  
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .one-member {
+    align-items: center;
+    border: 2px solid $color4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 1rem;
+  
+    p {
+      margin: 0;
+    }
+  
+    i.fas {
+      font-size: 1.5rem;
+      margin-left: 0.5rem;
+  
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    i.fas.fa-user-circle {
+      color: $color4;
+    }
+
+    i.fas.fa-check,
+    i.fas.fa-envelope {
+      color: #00b61e;
+    }
+
+    i.fas.fa-times {
+      color: #e01c1c;
+    }
+
+    i.fas.fa-chevron-right {
+      color: $color3;
+    }
+  }
+}

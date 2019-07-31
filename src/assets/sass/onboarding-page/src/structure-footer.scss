@@ -1,0 +1,35 @@
+footer.onboarding-page {
+  align-items: center;
+  background-color: $color1;
+  color: $color2;
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+  justify-content: center;
+  width: 100%;
+
+  nav.footer-menu ul {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0.2rem;
+
+    li {
+      margin: 0.5rem;
+
+      a {
+        color: $color2;
+        text-decoration: none;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  p {
+    margin: 0.2rem;
+    text-align: center;
+  }
+}

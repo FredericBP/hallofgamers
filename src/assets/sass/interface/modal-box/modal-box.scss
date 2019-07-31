@@ -1,0 +1,29 @@
+#modal-box {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+  padding: 0.5rem;
+  width: 400px;
+  position: absolute;
+  top: 35%;
+
+  @include block;
+
+  i.fas:hover {
+    cursor: pointer;
+  }
+
+  p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .modal-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
